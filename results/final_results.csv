@@ -1,0 +1,9 @@
+Modèle,Accuracy (Test),Temps (s),Observations
+Arbre seul,95.87%,0.240,Fort surapprentissage (train ~100%)
+Bagging manuel,94.00%,0.926,"Réduction du surapprentissage, bonne généralisation"
+Random Forest,94.80%,0.423,"Très bonne généralisation, stable"
+AdaBoost,81.87%,0.241,"Bon compromis, sensible au learning_rate"
+XGBoost,95.87%,0.542,"Performances élevées, régularisation intégrée"
+Hard Voting,95.60%,1.221,"Robuste, combine les décisions"
+Soft Voting,95.33%,1.379,"Utilise les probabilités, plus précis"
+Stacking,96.40%,4.356,Apprend la meilleure combinaison des modèles

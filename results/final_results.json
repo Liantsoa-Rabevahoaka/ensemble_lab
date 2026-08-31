@@ -1,0 +1,50 @@
+[
+  {
+    "Mod\u00e8le":"Arbre seul",
+    "Accuracy (Test)":0.9586666667,
+    "Temps (s)":0.2403590679,
+    "Observations":"Fort surapprentissage (train ~100%)"
+  },
+  {
+    "Mod\u00e8le":"Bagging manuel",
+    "Accuracy (Test)":0.94,
+    "Temps (s)":0.9263849258,
+    "Observations":"R\u00e9duction du surapprentissage, bonne g\u00e9n\u00e9ralisation"
+  },
+  {
+    "Mod\u00e8le":"Random Forest",
+    "Accuracy (Test)":0.948,
+    "Temps (s)":0.4227471352,
+    "Observations":"Tr\u00e8s bonne g\u00e9n\u00e9ralisation, stable"
+  },
+  {
+    "Mod\u00e8le":"AdaBoost",
+    "Accuracy (Test)":0.8186666667,
+    "Temps (s)":0.2413852215,
+    "Observations":"Bon compromis, sensible au learning_rate"
+  },
+  {
+    "Mod\u00e8le":"XGBoost",
+    "Accuracy (Test)":0.9586666667,
+    "Temps (s)":0.541711092,
+    "Observations":"Performances \u00e9lev\u00e9es, r\u00e9gularisation int\u00e9gr\u00e9e"
+  },
+  {
+    "Mod\u00e8le":"Hard Voting",
+    "Accuracy (Test)":0.956,
+    "Temps (s)":1.2208070755,
+    "Observations":"Robuste, combine les d\u00e9cisions"
+  },
+  {
+    "Mod\u00e8le":"Soft Voting",
+    "Accuracy (Test)":0.9533333333,
+    "Temps (s)":1.3786220551,
+    "Observations":"Utilise les probabilit\u00e9s, plus pr\u00e9cis"
+  },
+  {
+    "Mod\u00e8le":"Stacking",
+    "Accuracy (Test)":0.964,
+    "Temps (s)":4.3559479713,
+    "Observations":"Apprend la meilleure combinaison des mod\u00e8les"
+  }
+]
